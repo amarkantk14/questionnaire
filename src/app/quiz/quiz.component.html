@@ -1,3 +1,26 @@
-<p>
-  quiz works!
-</p>
+<div class="row quiz-wrapper">
+  <div class="quiz-question col-md-6 col-md-offset-2">
+    <p>{{description}}</p>
+    <div class="form-horizontal">
+      <div *ngFor="let question of questions; let i = index" class="rounded" [attr.data-index]="i">
+        <div class="quiz-question-item">
+          <h5>{{i+1}}.  {{question.name}}</h5>
+          <div [ngClass]="{'options': true}">
+            <select (change)="onChange($event.target.value, question.id)" [ngClass]="{'form-control select': true, 'error': isSubmitted && !question.answered}">
+                <option value="null" disabled="disabled">Select</option>
+                <option *ngFor="let option of question.options" [value]="option.id" [id]="option.id">
+                  {{option.value}}
+                </option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-primary" (click)="onSubmit()">Submit</button>
+      <button class="btn btn-info" (click)="reset()">Clear</button>
+    </div> 
+  </div>
+
+  <div class="quiz-chart col-4" *ngIf="result">
+    <chart [result]="result" [show]="showChart"></chart>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+.quiz-question-item {
+  padding: 5px;
+}
+.quiz-question-item  > h5 { 
+    padding: 6px;
+    background-color: #3F3A39;
+    color: #FFFFFF;
+    height: 50px;
+    font-size: 16px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.quiz-question-item > .options {
+	background: #ccc;
+	margin: -20px 0 0 0;
+	padding: 10px;
+}
+.select {
+	width: 150px !important;
+}
+.btn {
+	margin: 0 5px;
+}
+.quiz-question{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.error {
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #F33610;
+    padding: 0.375rem 0.75rem;
+}

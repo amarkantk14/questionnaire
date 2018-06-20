@@ -1,224 +1,145 @@
 {
   "id":1,
-  "name":"JavaScript Multiple Choice Questions and Answers",
-  "description":"Javascript Questions and Answers has been designed with a special intention of helping students",
+  "name":"Cricket Trivia Multiple Choice Questions and Answers",
+  "description":"Cricket Trivia has been designed with a special intention of helping students",
   "questions":[
     {
       "id":1010,
-      "name":"Why so JavaScript and Java have similar name?",
-      "questionTypeId":1,
+      "name":"when was the last time india won the cricket world cup ?",
+      "answered": false,
       "options":[
         {
           "id":1055,
           "questionId":1010,
-          "name":"JavaScript is a stripped-down version of Java",
-          "isAnswer":false
+          "value":2011,
+          "isAnswer":true
         },
         {
           "id":1056,
           "questionId":1010,
-          "name":"JavaScript's syntax is loosely based on Java's",
-          "isAnswer":true
+          "value":2015,
+          "isAnswer":false
         },
         {
           "id":1057,
           "questionId":1010,
-          "name":"They both originated on the island of Java",
+          "value":2007,
           "isAnswer":false
         },
         {
           "id":1058,
           "questionId":1010,
-          "name":"None of the above",
+          "value":2003,
           "isAnswer":false
         }
       ]
     },
     {
       "id":1011,
-      "name":"When a user views a page containing a JavaScript program, which machine actually executes the script?",
-      "questionTypeId":1,
+      "name":"what is the highest individual score in test cricket ?",
+      "answered": false,
       "options":[
         {
           "id":1055,
-          "questionId":1010,
-          "name":"The User's machine running a Web browser",
-          "isAnswer":true
+          "questionId":1011,
+          "value":375,
+          "isAnswer":false
         },
         {
           "id":1057,
-          "questionId":1010,
-          "name":"The Web server",
+          "questionId":1011,
+          "value":405,
           "isAnswer":false
         },
         {
           "id":1056,
-          "questionId":1010,
-          "name":"A central machine deep within Netscape's corporate offices",
+          "questionId":1011,
+          "value":380,
           "isAnswer":false
         },
         {
           "id":1058,
-          "questionId":1010,
-          "name":"None of the above",
-          "isAnswer":false
+          "questionId":1011,
+          "value":400,
+          "isAnswer":true
         }
       ]
     },
     {
       "id":1012,
-      "name":"Which of the following is not considered a JavaScript operator?",
-      "questionTypeId":1,
+      "name":"who has won the most number of cricket world cups?",
+      "answered": false,
       "options":[
         {
           "id":1055,
-          "questionId":1010,
-          "name":"this",
+          "questionId":1012,
+          "value": "Australia",
           "isAnswer":true
         },
         {
           "id":1057,
-          "questionId":1010,
-          "name":"new",
+          "questionId":1012,
+          "value": "India",
           "isAnswer":false
         },
         {
           "id":1056,
-          "questionId":1010,
-          "name":"delete",
+          "questionId":1012,
+          "value": "Sri Lanka",
           "isAnswer":false
         },
         {
           "id":1058,
-          "questionId":1010,
-          "name":"typeof",
+          "questionId":1012,
+          "value": "England",
           "isAnswer":false
         }
       ]
     },
     {
       "id":1013,
-      "name":"What is mean by \"this\" keyword in javascript?",
-      "questionTypeId":1,
+      "name":"How many international centuries does sachin tendulkar has under his name ?",
+      "answered": false,
       "options":[
         {
           "id":1055,
-          "questionId":1010,
-          "name":"It refers current object",
+          "questionId":1013,
+          "value": 49,
           "isAnswer":true
         },
         {
           "id":1057,
-          "questionId":1010,
-          "name":"It referes previous object",
+          "questionId":1013,
+          "value": 51,
           "isAnswer":false
         },
         {
           "id":1056,
-          "questionId":1010,
-          "name":" It is variable which contains value",
+          "questionId":1013,
+          "value": 72,
           "isAnswer":false
         },
         {
           "id":1058,
-          "questionId":1010,
-          "name":"None of the above",
-          "isAnswer":false
-        }
-      ]
-    },
-    {
-      "id":1014,
-      "name":"JavaScript is ______ Side Scripting Language.",
-      "questionTypeId":1,
-      "options":[
-        {
-          "id":1055,
-          "questionId":1010,
-          "name":"Server",
-          "isAnswer":false
-        },
-        {
-          "id":1057,
-          "questionId":1010,
-          "name":"Browser",
-          "isAnswer":true
-        },
-        {
-          "id":1056,
-          "questionId":1010,
-          "name":"None of these",
-          "isAnswer":false
-        },
-        {
-          "id":1058,
-          "questionId":1010,
-          "name":"Both",
-          "isAnswer":false
-        }
-      ]
-    },
-    {
-      "id":1015,
-      "name":"JavaScript Code is written inside file having extension __________.",
-      "questionTypeId":1,
-      "options":[
-        {
-          "id":1055,
-          "questionId":1010,
-          "name":".jss",
-          "isAnswer":false
-        },
-        {
-          "id":1057,
-          "questionId":1010,
-          "name":".jsx",
-          "isAnswer":false
-        },
-        {
-          "id":1056,
-          "questionId":1010,
-          "name":".js",
-          "isAnswer":true
-        },
-        {
-          "id":1058,
-          "questionId":1010,
-          "name":"None of the above",
-          "isAnswer":false
-        }
-      ]
-    },
-    {
-      "id":1016,
-      "name":"Which attribute is used to specifies that the script is executed when the page has finished parsing (only for external scripts)",
-      "questionTypeId":1,
-      "options":[
-        {
-          "id":1055,
-          "questionId":1010,
-          "name":"type",
-          "isAnswer":false
-        },
-        {
-          "id":1056,
-          "questionId":1010,
-          "name":"defer",
-          "isAnswer":true
-        },
-        {
-          "id":1057,
-          "questionId":1010,
-          "name":"async",
-          "isAnswer":false
-        },
-        {
-          "id":1058,
-          "questionId":1010,
-          "name":"parse",
+          "questionId":1013,
+          "value": 37,
           "isAnswer":false
         }
       ]
     }
-  ]
+  ],
+  "result":[{ 
+    "id": "correct",
+    "label": "Correct",
+    "value": 0,
+    "resultIds": [],
+    "color": "#009300"
+  },
+  {
+    "id": "incorrect",
+    "label": "Incorrect",
+    "value": 0,
+    "resultIds": [],
+    "color": "#FF4848"
+  }]
 }
